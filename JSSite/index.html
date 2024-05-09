@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Website</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	
+	<nav>
+		<a href="index.html">Home</a>
+		<a href="about_myself.html">About Me</a>
+		<a href="my_hobbies.html">My Hobbies</a>
+		<a href="home_town.html">My Hometown</a>
+	</nav>
+
+	<h1>Welcome to My Website</h1>
+<p>Welcome to my website, where I share information about myself, my hobbies, and my hometown. This website is a collection of HTML, CSS, and JavaScript files that I created. Feel free to explore the different pages and learn more about me!</p>
+	<ul>
+		<li><a href="about_myself.html">About Me</a></li>
+		<li><a href="my_hobbies.html">My Hobbies</a></li>
+		<li><a href="home_town.html">My Hometown</a></li>
+	</ul>
+
+
+	<h2>button-accordion</h2>
+	<button class="button-accordion">Sachin Tendulkar</button>
+	<div class="textContent">
+		<p>Hailed as a best batsman of all times, Sachin Tendulkar was born to play cricket. He is the one who sets all the records - he is a record holder in Tests as well as ODIs. In a span of 13 years (1989-2013), Tendulkar, also known as the God of Cricket, displayed his extra-ordinary batting skills, discipline and commitment to the game.</p>
+	</div>
+	
+	<button class="button-accordion">Virat Kohli</button>
+	<div class="textContent">
+		<p>Virat Kohli is actually on the reigns of Indian national cricket team and is thought one of the most successful batsmen of the modern times. One who is famous for his destructive batting style, fitness and leadership qualities, Kohli has breached many records and has never had any off-form days in the different formats of the game.</p>
+	</div>
+	
+	<button class="button-accordion">MS Dhoni</button>
+	<div class="textContent">
+		<p>MS Dhoni is a past Indian cricket player who captained the Indian team to fulfill the victory in the 2007 T20 World Cup, 2011 Cricket World Cup and the 2013 Champions Trophy. He is likely one of the best wicket-keeper/ batsmen and captains in the history of Indian cricket after all, he is famous for his calm attitude while all strategizing.</p>
+	</div>
+
+	<h2>Change Content</h2>
+	<button onclick="modifyContent('This is new content.')">Change Text</button>
+	<button onclick="modifyContent('image')">Change Image</button>
+	<div style="margin-top: 10px;" id="contentArea">Initial Content</div>
+
+	<h2>Validate Input</h2>
+	<input type="text" id="inputField" placeholder="Enter 'example'">
+	<button onclick="doValidation()">Validate</button>
+	<p id="errorMessage" style="display: none; color: red;">Invalid input!</p>
+</body>
+<script src="script.js"></script>
+</html>
